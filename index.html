@@ -88,6 +88,24 @@
                 color: #89cfff;
             }
         </style>
+        <script>
+            function updateURL() {
+                const { host, protocol } = window.location;
+                const domain = `${protocol}//${host}`;
+
+                const links = document.querySelectorAll("a");
+
+                links.forEach((link) => {
+                    const href = link.getAttribute("href");
+
+                    if (href && href.includes(`{{domain}}`)) {
+                        link.setAttribute("href", href.replace(`{{domain}}`, domain));
+                    }
+                });
+            }
+
+            window.onload = updateURL;
+        </script>
     </head>
     <body>
         <div class="container">
@@ -104,11 +122,9 @@
                     <tr>
                         <td><a href="https://github.com/keiyoushi/extensions" target="_blank">Keiyoushi</a></td>
                         <td>
-                            <a href="tachiyomi://add-repo?url=https://yomi.noz.one/keiyoushi/index.min.json" target="_blank"
-                                >Install</a
-                            >
+                            <a href="tachiyomi://add-repo?url={{domain}}/keiyoushi/index.min.json" target="_blank">Install</a>
                         </td>
-                        <td><a href="https://yomi.noz.one/keiyoushi/index.min.json" target="_blank">URL</a></td>
+                        <td><a href="{{domain}}/keiyoushi/index.min.json" target="_blank">URL</a></td>
                     </tr>
                 </table>
             </div>
@@ -124,9 +140,9 @@
                     <tr>
                         <td><a href="https://github.com/Kohi-den/extensions" target="_blank">Kohi-den</a></td>
                         <td>
-                            <a href="aniyomi://add-repo?url=https://yomi.noz.one/kohi-den/index.min.json" target="_blank">Install</a>
+                            <a href="aniyomi://add-repo?url={{domain}}/kohi-den/index.min.json" target="_blank">Install</a>
                         </td>
-                        <td><a href="https://yomi.noz.one/kohi-den/index.min.json" target="_blank">URL</a></td>
+                        <td><a href="{{domain}}/kohi-den/index.min.json" target="_blank">URL</a></td>
                     </tr>
                 </table>
             </div>
