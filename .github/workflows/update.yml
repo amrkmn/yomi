@@ -1,0 +1,41 @@
+name: Update Submodules
+
+on:
+    schedule:
+        - cron: "0 */4 * * *"
+    workflow_dispatch:
+
+jobs:
+    update-submodules:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v4
+              with:
+                  submodules: recursive
+
+            - name: Update submodules
+              run: |
+                  git submodule update --remote --recursive
+
+            - name: Check for changes
+              id: changes
+              run: |
+                  git add .
+                  if git diff --quiet; then
+                    echo "No changes to commit"
+                    echo "::set-output name=changes::false"
+                  else
+                    echo "::set-output name=changes::true"
+                  fi
+
+            - name: Commit and push changes
+              if: steps.changes.outputs.changes == 'true'
+              run: |
+                  git config user.name "github-actions[bot]"
+                  git config user.email "github-actions[bot]@users.noreply.github.com"
+                  git commit -m "Update submodules to the latest commit"
+                  git push
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

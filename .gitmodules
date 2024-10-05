@@ -1,0 +1,6 @@
+[submodule "keiyoushi"]
+	path = keiyoushi
+	url = https://ujol.dev/mirror/keiyoushi
+[submodule "kohi-den"]
+	path = kohi-den
+	url = https://ujol.dev/mirror/kohi-den
