@@ -19,9 +19,9 @@ jobs:
               run: |
                   git submodule update --remote --recursive                  
 
-            - name: Stage submodule updates
+            - name: Add changes
               run: |
-                  git submodule foreach 'git add .'                  
+                  git add .
 
             - name: Check for changes
               id: changes
