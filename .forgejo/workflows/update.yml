@@ -17,7 +17,11 @@ jobs:
 
             - name: Update submodules
               run: |
-                  git submodule update --remote --recursive
+                  git submodule update --remote --recursive                  
+
+            - name: Stage submodule updates
+              run: |
+                  git submodule foreach 'git add .'                  
 
             - name: Check for changes
               id: changes
@@ -28,7 +32,7 @@ jobs:
                     echo "hasUpdate=false" >> $GITHUB_OUTPUT
                   else
                     echo "hasUpdate=true" >> $GITHUB_OUTPUT
-                  fi
+                  fi                  
 
             - name: Commit and push changes
               if: steps.changes.outputs.hasUpdate == 'true'
@@ -36,6 +40,6 @@ jobs:
                   git config user.name "github-actions[bot]"
                   git config user.email "github-actions[bot]@users.noreply.github.com"
                   git commit -m "Update submodules to the latest commit"
-                  git push
+                  git push                  
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
