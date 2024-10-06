@@ -19,15 +19,11 @@ jobs:
               run: |
                   git submodule update --remote --recursive                  
 
-            - name: Add changes
-              run: |
-                  git add .
-
             - name: Check for changes
               id: changes
               run: |
                   git add .
-                  if git diff --quiet; then
+                  if git diff --cached --quiet; then
                     echo "No changes to commit"
                     echo "hasUpdate=false" >> $GITHUB_OUTPUT
                   else
