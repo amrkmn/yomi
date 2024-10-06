@@ -1,41 +1,32 @@
 name: Update Submodules
-
 on:
-    schedule:
-        - cron: "0 */3 * * *"
-    workflow_dispatch:
+  schedule:
+    - cron: "0 */4 * * *"
+  workflow_dispatch:
 
 jobs:
-    update:
-        runs-on: ubuntu-latest
+  update-submodules:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          submodules: recursive
+          fetch-depth: 0
 
-        steps:
-            - name: Checkout repository
-              uses: actions/checkout@v4
-              with:
-                  submodules: recursive
+      - name: Update submodules
+        run: git submodule update --remote --recursive
 
-            - name: Update submodules
-              run: |
-                  git submodule update --remote --recursive                  
-
-            - name: Check for changes
-              id: changes
-              run: |
-                  git add .
-                  if git diff --cached --quiet; then
-                    echo "No changes to commit"
-                    echo "hasUpdate=false" >> $GITHUB_OUTPUT
-                  else
-                    echo "hasUpdate=true" >> $GITHUB_OUTPUT
-                  fi                  
-
-            - name: Commit and push changes
-              if: steps.changes.outputs.hasUpdate == 'true'
-              run: |
-                  git config user.name "github-actions[bot]"
-                  git config user.email "github-actions[bot]@users.noreply.github.com"
-                  git commit -m "Update submodules to the latest commit"
-                  git push                  
-              env:
-                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if [[ -n $(git status -s) ]]; then
+            git add .
+            git commit -m "Update submodules to the latest commit"
+            git push
+          else
+            echo "No changes to commit"
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
