@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  update-submodules:
+  update:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
