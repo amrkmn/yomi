@@ -1,5 +1,7 @@
 # Mihon & Aniyomi Extensions
 
+[![Visits Badge](https://ujol.dev/u/yomi/badges/workflows/update.yml/badge.svg)](https://yomi.noz.one)
+
 ## Mihon Extensions
 
 | Name                                                 | Auto                                                                              | Manual                                               |
