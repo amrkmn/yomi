@@ -1,6 +1,6 @@
 # Mihon & Aniyomi Extensions
 
-[![Visits Badge](https://ujol.dev/u/yomi/badges/workflows/update.yml/badge.svg)](https://yomi.noz.one)
+[![CI](https://ujol.dev/u/yomi/badges/workflows/update.yml/badge.svg)](https://ujol.dev/u/yomi/actions?workflow=update.yml)
 
 ## Mihon Extensions
 
