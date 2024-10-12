@@ -4,3 +4,7 @@
 [submodule "kohi-den"]
 	path = kohi-den
 	url = https://ujol.dev/mirror/kohi-den
+[submodule "dark"]
+	path = dark
+	url = https://ujol.dev/mirror/dark
+	branch = repo
