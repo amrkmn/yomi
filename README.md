@@ -1,6 +1,6 @@
 # Mihon & Aniyomi Extensions
 
-[![CI](https://ujol.dev/u/yomi/badges/workflows/update.yml/badge.svg)](https://ujol.dev/u/yomi/actions?workflow=update.yml)
+[![CI](https://github.com/amrkmn/yomi/actions/workflows/update.yml/badge.svg)](https://github.com/amrkmn/yomi/actions/workflows/update.yml)
 
 ## Mihon Extensions
 
