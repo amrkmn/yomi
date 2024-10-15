@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  update-submodules:
+  update:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -30,7 +30,7 @@ jobs:
         run: |
           if [[ -n $(git status -s) ]]; then
             git add .
-            git commit -m "Update extensions repositories"
+            git commit -m "Update submodules to the latest commit"
             
             # Try to push, if it fails, fetch, rebase, and try again
             MAX_RETRIES=5
