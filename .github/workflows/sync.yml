@@ -1,7 +1,10 @@
-name: Sync Repo to GitLab
+name: Sync Repo
 
 on:
-  push
+  push:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */6 * * *"
 
 jobs:
   gitlab:
@@ -21,5 +24,5 @@ jobs:
           fetch-depth: 0
       - uses: pixta-dev/repository-mirroring-action@674e65a7d483ca28dafaacba0d07351bdcc8bd75 # v1.1.1
         with:
-          target_repo_url: "ssh://git@ujol.dev:222/u/yomi.git"
+          target_repo_url: ${{ secrets.FORGEJO_REPO }}
           ssh_private_key: ${{ secrets.FORGEJO_SSH }}
