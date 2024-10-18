@@ -104,7 +104,26 @@
                 });
             }
 
-            window.onload = updateURL;
+            async function fetchCommitHash() {
+                try {
+                    const response = await fetch("https://api.github.com/repos/amrkmn/yomi/commits");
+                    const commits = await response.json();
+                    const latestCommitHash = commits[0].sha.substring(0, 7); // Fetch first 7 characters of the commit hash
+                    const commitLink = `https://github.com/amrkmn/yomi/commit/${commits[0].sha}`;
+
+                    const footer = document.querySelector("footer");
+                    const commitElement = document.createElement("div");
+                    commitElement.innerHTML = `Commit: <a href="${commitLink}" target="_blank">${latestCommitHash}</a>`;
+                    footer.appendChild(commitElement);
+                } catch (error) {
+                    console.error("Error fetching commit hash:", error);
+                }
+            }
+
+            window.onload = function () {
+                updateURL();
+                fetchCommitHash();
+            };
         </script>
     </head>
     <body>
