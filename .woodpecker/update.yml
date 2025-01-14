@@ -1,7 +1,8 @@
 when:
   - branch: main
-    event: cron
+    event: [cron, manual]
     name: "Update Submodules"
+  
 
 steps:
     setup:
