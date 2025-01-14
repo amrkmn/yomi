@@ -1,0 +1,41 @@
+when:
+    - event: cron
+      cron: "0 */3 * * *"
+    - event: manual
+
+steps:
+    update:
+        image: woodpeckerci/plugin-git
+        settings:
+            fetch-depth: 0
+            recursive: true
+            submodule-update-remote: true
+
+        commands:
+            - git config user.name "woodpecker-ci"
+            - git config user.email "woodpecker@ci.ujol.dev"
+            - git fetch origin
+            - git reset --hard origin/main
+            - git submodule update --remote --recursive
+            - |
+                if [[ -n $(git status -s) ]]; then
+                  git add .
+                  git commit -m "Update submodules to the latest commit"
+                  
+                  # Try to push, if it fails, fetch, rebase, and try again
+                  MAX_RETRIES=5
+                  RETRY_COUNT=0
+                  while ! git push && [ $RETRY_COUNT -lt $MAX_RETRIES ]; do
+                    git fetch origin
+                    git rebase origin/main
+                    RETRY_COUNT=$((RETRY_COUNT+1))
+                    echo "Push failed. Retrying... (Attempt $RETRY_COUNT of $MAX_RETRIES)"
+                  done
+                  if [ $RETRY_COUNT -eq $MAX_RETRIES ]; then
+                    echo "Failed to push after $MAX_RETRIES attempts."
+                    exit 1
+                  fi
+                else
+                  echo "No changes to commit"
+                fi
+        secrets: [github_token]
