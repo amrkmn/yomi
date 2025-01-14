@@ -1,8 +1,14 @@
 when:
-  - branch: main
-    event: [cron, manual]
-    name: "Update Submodules"
-  
+    - branch: main
+      event: [cron, manual]
+      name: "Update Submodules"
+
+clone:
+    git:
+        image: woodpeckerci/plugin-git
+        settings:
+            recursive: true
+            submodule-update-remote: true
 
 steps:
     setup:
@@ -10,14 +16,6 @@ steps:
         commands:
             - git config user.name "woodpecker-ci"
             - git config user.email "ci@ci.ujol.dev"
-
-    checkout:
-        image: alpine/git
-        commands:
-            - git clone --recursive $CI_REPO_NAME .
-            - git fetch origin
-            - git reset --hard origin/main
-            - git submodule update --remote --recursive
 
     update_submodules:
         image: alpine/git
