@@ -6,7 +6,7 @@ import { PathLike } from "fs";
 const OUTPUT_DIR = join(process.cwd(), "dist");
 const TEMPLATE_DIR = join(process.cwd(), "src/templates");
 const EXTENSIONS_DIR = join(process.cwd(), "extensions");
-const EXTENSIONS = ["keiyoushi", "kohi-den", "dark"];
+const EXTENSIONS = ["keiyoushi", "kohi-den"];
 const FILES_TO_COPY = ["index.json", "index.min.json", "repo.json", "apk", "icon"];
 
 const owner = "amrkmn";
