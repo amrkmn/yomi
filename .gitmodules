@@ -6,7 +6,3 @@
 	path = extensions/keiyoushi
 	url = https://github.com/keiyoushi/extensions
 	branch = repo
-[submodule "extensions/dark"]
-	path = extensions/dark
-	url = https://github.com/dark25/aniyomi-extensions
-	branch = repo
