@@ -1,12 +1,12 @@
-[submodule "keiyoushi"]
-	path = keiyoushi
-	branch = repo
-	url = https://github.com/keiyoushi/extensions
-[submodule "kohi-den"]
-	path = kohi-den
-	branch = main
+[submodule "extensions/kohi-den"]
+	path = extensions/kohi-den
 	url = https://github.com/Kohi-den/extensions
-[submodule "dark"]
-	path = dark
+	branch = main
+[submodule "extensions/keiyoushi"]
+	path = extensions/keiyoushi
+	url = https://github.com/keiyoushi/extensions
 	branch = repo
-	url = https://github.com/Dark25/aniyomi-extensions
+[submodule "extensions/dark"]
+	path = extensions/dark
+	url = https://github.com/dark25/aniyomi-extensions
+	branch = repo

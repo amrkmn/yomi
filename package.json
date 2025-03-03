@@ -1,0 +1,23 @@
+{
+    "name": "yomi",
+    "version": "1.0.0",
+    "description": "Mihon & Aniyomi Extensions",
+    "main": "src/index.ts",
+    "scripts": {
+        "build": "bun run src/index.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "private": true,
+    "dependencies": {
+        "ejs": "^3.1.10"
+    },
+    "devDependencies": {
+        "@types/bun": "latest",
+        "@types/ejs": "^3.1.5"
+    },
+    "peerDependencies": {
+        "typescript": "^5"
+    }
+}

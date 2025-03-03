@@ -1,0 +1,35 @@
+<div class="container">
+    <h1>Mihon & Aniyomi Extensions</h1>
+
+    <% for (const [category, repos] of Object.entries(extensions)) { %>
+    <div class="<%= category %>">
+        <h2><%= category.charAt(0).toUpperCase() + category.slice(1) %> Extensions</h2>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Auto</th>
+                <th>Manual</th>
+            </tr>
+            <% for (const repo of repos) { %>
+            <tr>
+                <td><a href="<%= repo.source %>" target="_blank"><%= repo.name %></a></td>
+                <td>
+                    <a href="aniyomi://add-repo?url=https://yomi.noz.one<%= repo.path %>" target="_blank">
+                        Install <sup>[1]</sup>
+                    </a>
+                    <span>,</span>
+                    <a href="aniyomi://add-repo?url=https://yomi.ujol.dev<%= repo.path %>" target="_blank">
+                        Install <sup>[2]</sup>
+                    </a>
+                </td>
+                <td>
+                    <a href="https://yomi.noz.one<%= repo.path %>" target="_blank">URL <sup>[1]</sup></a>
+                    <span>,</span>
+                    <a href="https://yomi.ujol.dev<%= repo.path %>" target="_blank">URL <sup>[2]</sup></a>
+                </td>
+            </tr>
+            <% } %>
+        </table>
+    </div>
+    <% } %>
+</div>
