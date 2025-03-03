@@ -29,11 +29,6 @@ const extensions = {
             name: "Kohi-den",
             path: "/kohi-den/index.min.json",
         },
-        {
-            source: "https://github.com/Dark25/aniyomi-extensions",
-            name: "Dark25",
-            path: "/dark/index.min.json",
-        },
     ],
 };
 
