@@ -86,7 +86,7 @@ try {
     const commits = await res.json();
     const latestCommitHash = `${commits.sha}`.substring(0, 7);
     const commitLink = commits.html_url;
-    const source = "https://github.com/amrkmn/yomi";
+    const source = `https://github.com/${owner}/${repo}`;
 
     const template = await fs.readFile(`${TEMPLATE_DIR}/index.ejs`, "utf-8");
     const output = ejs.render(
