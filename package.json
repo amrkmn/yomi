@@ -1,21 +1,21 @@
 {
     "name": "yomi",
     "version": "1.0.0",
-    "description": "Mihon & Aniyomi Extensions",
+    "author": "Amar Tukimin",
     "main": "src/index.ts",
+    "description": "Mihon & Aniyomi Extensions",
+    "keywords": [],
+    "license": "ISC",
+    "private": true,
     "scripts": {
         "build": "bun run src/index.ts"
     },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "private": true,
-    "dependencies": {
-        "ejs": "^3.1.10"
-    },
     "devDependencies": {
         "@types/bun": "latest",
-        "@types/ejs": "^3.1.5"
+        "@types/ejs": "^3.1.5",
+        "@types/minify": "^9.1.4",
+        "ejs": "^3.1.10",
+        "minify": "^14.0.0"
     },
     "peerDependencies": {
         "typescript": "^5"

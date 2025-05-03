@@ -2,6 +2,7 @@ import fs from "fs/promises";
 import ejs from "ejs";
 import { join } from "path";
 import { PathLike } from "fs";
+import { minify } from "minify";
 
 const OUTPUT_DIR = join(process.cwd(), "dist");
 const TEMPLATE_DIR = join(process.cwd(), "src/templates");
@@ -95,7 +96,12 @@ try {
         { views: [join(__dirname, "templates")] }
     );
 
-    await fs.writeFile(`${OUTPUT_DIR}/index.html`, output);
+    console.log(`Minifiying index.html`)
+    await fs.writeFile(`${OUTPUT_DIR}/temp.html`, output);
+    const minified = await minify(`${OUTPUT_DIR}/temp.html`);
+    await fs.writeFile(`${OUTPUT_DIR}/index.html`, minified);
+    await fs.unlink(`${OUTPUT_DIR}/temp.html`);
+
     console.log(`Build index.html with commit hash: ${latestCommitHash} (${commitLink})`);
 } catch (error) {
     console.error("Error fetching commit:", error.response?.data || error.message);
