@@ -8,7 +8,7 @@
     "license": "ISC",
     "private": true,
     "scripts": {
-        "build": "bun run src/index.ts"
+        "build": "bun run -b src/index.ts"
     },
     "devDependencies": {
         "@types/bun": "latest",
