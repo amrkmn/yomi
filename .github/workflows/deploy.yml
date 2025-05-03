@@ -31,7 +31,7 @@ jobs:
             - name: Build project
               run: bun run build
 
-            - name: Deploy
+            - name: Deploy to GitHub Pages
               uses: peaceiris/actions-gh-pages@v4
               if: github.ref == 'refs/heads/main'
               with:
