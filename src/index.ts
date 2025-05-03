@@ -34,11 +34,11 @@ const extensions = {
 
 async function ensureDir(path: PathLike) {
     try {
-        if (!fs.exists(path)) {
-            await fs.mkdir(path, { recursive: true });
-        }
+        await fs.mkdir(path, { recursive: true });
     } catch (error) {
-        console.error(`Error creating directory ${path}:`, error);
+        if ((error as NodeJS.ErrnoException).code !== "EEXIST") {
+            console.error(`Error creating directory ${path}:`, error);
+        }
     }
 }
 async function copyRecursive(src: string, dest: string) {
