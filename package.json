@@ -13,12 +13,10 @@
     "devDependencies": {
         "@types/bun": "latest",
         "@types/ejs": "^3.1.5",
-        "@types/minify": "^9.1.4",
         "ejs": "^3.1.10",
-        "minify": "^14.0.0"
+        "prettier": "^3.5.3"
     },
     "peerDependencies": {
         "typescript": "^5"
-    },
-    "packageManager": "yarn@4.9.1"
+    }
 }

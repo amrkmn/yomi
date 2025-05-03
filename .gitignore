@@ -32,7 +32,3 @@ report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
 
 # Finder (MacOS) folder config
 .DS_Store
-
-# Yarn files
-.yarn/install-state.gz
-.yarn/build-state.yml
