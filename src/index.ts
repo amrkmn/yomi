@@ -98,6 +98,6 @@ try {
     await fs.writeFile(`${OUTPUT_DIR}/index.html`, output);
     console.log(`Build index.html with commit hash: ${latestCommitHash} (${commitLink})`);
 } catch (error) {
-    console.error("Error fetching commit:", error.response?.data || error.message);
+    console.error("Error fetching commit: ", error.response?.data || error.message);
     process.exit(1);
 }
