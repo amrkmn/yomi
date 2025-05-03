@@ -15,6 +15,8 @@ const branch = "main";
 
 const githubAPI = `https://api.github.com/repos/${owner}/${repo}/commits/${branch}`;
 
+const domains = ["https://yomi.noz.one", "https://yomi.ujol.dev", "https://amrkmn.github.io/yomi"];
+
 const extensions = {
     mihon: [
         {
@@ -91,7 +93,7 @@ try {
     const template = await fs.readFile(`${TEMPLATE_DIR}/index.ejs`, "utf-8");
     const output = ejs.render(
         template,
-        { extensions, source, commitLink, latestCommitHash },
+        { extensions, source, commitLink, latestCommitHash, domains },
         { views: [join(__dirname, "templates")] }
     );
 
