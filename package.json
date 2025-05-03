@@ -8,14 +8,12 @@
     "license": "ISC",
     "private": true,
     "scripts": {
-        "build": "bun run -b src/index.ts",
-        "format":"prettier --write \"dist/*\""
+        "build": "bun run -b src/index.ts"
     },
     "devDependencies": {
         "@types/bun": "latest",
         "@types/ejs": "^3.1.5",
-        "ejs": "^3.1.10",
-        "prettier": "^3.5.3"
+        "ejs": "^3.1.10"
     },
     "peerDependencies": {
         "typescript": "^5"
