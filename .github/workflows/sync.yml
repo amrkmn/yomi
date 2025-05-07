@@ -12,7 +12,7 @@ jobs:
     steps:
     - uses: keninkujovic/gitlab-sync@2.0.0
       with:
-        gitlab_url: https://gitlab.com/ujol/yomi.git
+        gitlab_url: https://gitlab.com/ujol/x.git
         username: ujol
         gitlab_pat: ${{ secrets.GITLAB_PAT }}
         
