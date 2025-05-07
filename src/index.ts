@@ -15,7 +15,7 @@ const branch = "main";
 
 const githubAPI = `https://api.github.com/repos/${owner}/${repo}/commits/${branch}`;
 
-const domains = ["https://x.noz.one", "https://yomi.ujol.dev", "https://amrkmn.github.io/yomi"];
+const domains = ["https://x.noz.one", "https://x.ujol.dev", "https://amrkmn.github.io/x"];
 
 const extensions = {
     mihon: [
