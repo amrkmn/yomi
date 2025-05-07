@@ -1,8 +1,8 @@
 <div class="container">
     <h1>Mihon & Aniyomi Extensions</h1>
 
-    <% for (const [category, repos] of Object.entries(extensions)) { %> const protocol = category.toLowerCase() === 'mihon' ?
-    'tachiyomi' : 'aniyomi'; <% } %>
+    <% for (const [category, repos] of Object.entries(extensions)) { const protocol = category.toLowerCase() === 'mihon' ? 'tachiyomi'
+    : 'aniyomi'; %>
     <div class="<%= category %>">
         <h2><%= category.charAt(0).toUpperCase() + category.slice(1) %> Extensions</h2>
         <table>
