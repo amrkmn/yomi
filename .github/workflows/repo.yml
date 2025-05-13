@@ -30,32 +30,9 @@ jobs:
               run: bun run build
 
             - name: Push dist to repo branch
-              run: |
-                  git config --global user.name "github-actions[bot]"
-                  git config --global user.email "github-actions[bot]@users.noreply.github.com"
-
-                  # Fetch all remote branches
-                  git fetch origin
-
-                  # Check if 'repo' branch exists on remote
-                  if git ls-remote --exit-code --heads origin repo; then
-                  echo "Repo branch exists. Using it."
-                  git worktree add output origin/repo
-                  else
-                  echo "Repo branch does not exist. Creating it."
-                  # Create orphan branch and worktree
-                  git worktree add -b repo output
-                  cd output
-                  git commit --allow-empty -m "Initial commit on repo branch"
-                  git push origin repo
-                  cd ..
-                  fi
-
-                  # Copy dist content into worktree
-                  cp -r dist/* output/
-                  cd output
-
-                  # Commit and push changes
-                  git add .
-                  git commit -m "Deploy dist to repo branch" || echo "No changes to commit"
-                  git push origin repo
+              uses: peaceiris/actions-gh-pages@v4
+              if: github.ref == 'refs/heads/main'
+              with:
+                  github_token: ${{ secrets.GITHUB_TOKEN }}
+                  publish_dir: ./dist
+                  publish_branch: repo
