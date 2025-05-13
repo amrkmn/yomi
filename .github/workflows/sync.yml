@@ -7,11 +7,13 @@ jobs:
     gitlab:
         runs-on: ubuntu-latest
         steps:
-            - uses: keninkujovic/gitlab-sync@2.0.0
+            - uses: actions/checkout@v4
               with:
-                  gitlab_url: https://gitlab.com/ujol/x.git
-                  username: ujol
-                  gitlab_pat: ${{ secrets.GITLAB_PAT }}
+                  fetch-depth: 0
+            - uses: pixta-dev/repository-mirroring-action@v1
+              with:
+                  target_repo_url: ${{ secrets.GITLAB_REPO }}
+                  ssh_private_key: ${{ secrets.GITLAB_SSH }}
 
     forgejo:
         runs-on: ubuntu-latest
