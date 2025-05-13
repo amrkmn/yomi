@@ -3,11 +3,6 @@ name: Push to repo branch
 on:
     workflow_dispatch:
 
-permissions:
-    contents: read
-    pages: write
-    id-token: write
-
 jobs:
     build:
         runs-on: ubuntu-latest
@@ -33,6 +28,6 @@ jobs:
               uses: peaceiris/actions-gh-pages@v4
               if: github.ref == 'refs/heads/main'
               with:
-                  github_token: ${{ secrets.GITHUB_TOKEN }}
+                  personal_token: ${{ secrets.GH_PAT }}
                   publish_dir: ./dist
                   publish_branch: repo
