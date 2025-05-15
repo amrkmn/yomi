@@ -1,7 +1,3 @@
-[submodule "extensions/kohi-den"]
-	path = extensions/kohi-den
-	url = https://github.com/Kohi-den/extensions
-	branch = main
 [submodule "extensions/keiyoushi"]
 	path = extensions/keiyoushi
 	url = https://github.com/keiyoushi/extensions
