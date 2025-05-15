@@ -6,11 +6,11 @@ import { PathLike } from "fs";
 const OUTPUT_DIR = join(process.cwd(), "dist");
 const TEMPLATE_DIR = join(process.cwd(), "src/templates");
 const EXTENSIONS_DIR = join(process.cwd(), "extensions");
-const EXTENSIONS = ["keiyoushi", "kohi-den"];
+const EXTENSIONS = ["keiyoushi", "yuzono"];
 const FILES_TO_COPY = ["index.json", "index.min.json", "repo.json", "apk", "icon"];
 
 const owner = "amrkmn";
-const repo = "yomi";
+const repo = "x";
 const branch = "main";
 
 const githubAPI = `https://api.github.com/repos/${owner}/${repo}/commits/${branch}`;
@@ -27,9 +27,9 @@ const extensions = {
     ],
     aniyomi: [
         {
-            source: "https://github.com/Kohi-den/extensions",
-            name: "Kohi-den",
-            path: "/kohi-den/index.min.json",
+            source: "https://github.com/yuzono/anime-repo",
+            name: "Yuzono",
+            path: "/yuzono/index.min.json",
         },
     ],
 };
