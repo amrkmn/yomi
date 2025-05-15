@@ -2,3 +2,7 @@
 	path = extensions/keiyoushi
 	url = https://github.com/keiyoushi/extensions
 	branch = repo
+[submodule "extensions/yuzono"]
+	path = extensions/yuzono
+	url = https://github.com/yuzono/anime-repo
+	branch = repo
