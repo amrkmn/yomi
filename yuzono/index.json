@@ -1062,17 +1062,17 @@
   {
     "name": "Aniyomi: AllAnime",
     "pkg": "eu.kanade.tachiyomi.animeextension.en.allanime",
-    "apk": "aniyomi-en.allanime-v14.38.apk",
+    "apk": "aniyomi-en.allanime-v14.39.apk",
     "lang": "en",
-    "code": 38,
-    "version": "14.38",
+    "code": 39,
+    "version": "14.39",
     "nsfw": 0,
     "sources": [
       {
         "name": "AllAnime",
         "lang": "en",
         "id": "4709139914729853090",
-        "baseUrl": "https://api.allanime.day"
+        "baseUrl": "https://allmanga.to/anime"
       }
     ]
   },
@@ -1617,6 +1617,23 @@
         "lang": "en",
         "id": "6399273548157311628",
         "baseUrl": "https://www.myrunningman.com"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: 9AnimeTV",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.nineanimetv",
+    "apk": "aniyomi-en.nineanimetv-v14.7.apk",
+    "lang": "en",
+    "code": 7,
+    "version": "14.7",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "9AnimeTV",
+        "lang": "en",
+        "id": "1060432665709437790",
+        "baseUrl": "https://9animetv.to"
       }
     ]
   },
