@@ -453,6 +453,41 @@
     ]
   },
   {
+    "name": "Aniyomi: StreamingCommunity",
+    "pkg": "eu.kanade.tachiyomi.animeextension.all.streamingcommunity",
+    "apk": "aniyomi-all.streamingcommunity-v14.7.apk",
+    "lang": "all",
+    "code": 7,
+    "version": "14.7",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "StreamingUnity (Movie)",
+        "lang": "en",
+        "id": "665657603807796138",
+        "baseUrl": "https://streamingunity.to/en"
+      },
+      {
+        "name": "StreamingUnity (Movie)",
+        "lang": "it",
+        "id": "502708102217708509",
+        "baseUrl": "https://streamingunity.to/it"
+      },
+      {
+        "name": "StreamingUnity (Tv)",
+        "lang": "en",
+        "id": "349088835984594821",
+        "baseUrl": "https://streamingunity.to/en"
+      },
+      {
+        "name": "StreamingUnity (Tv)",
+        "lang": "it",
+        "id": "7246470104959245892",
+        "baseUrl": "https://streamingunity.to/it"
+      }
+    ]
+  },
+  {
     "name": "Aniyomi: Stremio",
     "pkg": "eu.kanade.tachiyomi.animeextension.all.stremio",
     "apk": "aniyomi-all.stremio-v14.2.apk",
@@ -3324,23 +3359,6 @@
         "lang": "it",
         "id": "5832452298268268088",
         "baseUrl": "https://www.hentaisaturn.com"
-      }
-    ]
-  },
-  {
-    "name": "Aniyomi: StreamingCommunity",
-    "pkg": "eu.kanade.tachiyomi.animeextension.it.streamingcommunity",
-    "apk": "aniyomi-it.streamingcommunity-v14.6.apk",
-    "lang": "it",
-    "code": 6,
-    "version": "14.6",
-    "nsfw": 0,
-    "sources": [
-      {
-        "name": "StreamingCommunity",
-        "lang": "it",
-        "id": "8092251957420885335",
-        "baseUrl": "https://streamingcommunity.spa"
       }
     ]
   },
