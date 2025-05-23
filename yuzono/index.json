@@ -455,10 +455,10 @@
   {
     "name": "Aniyomi: StreamingCommunity",
     "pkg": "eu.kanade.tachiyomi.animeextension.all.streamingcommunity",
-    "apk": "aniyomi-all.streamingcommunity-v14.7.apk",
+    "apk": "aniyomi-all.streamingcommunity-v14.8.apk",
     "lang": "all",
-    "code": 7,
-    "version": "14.7",
+    "code": 8,
+    "version": "14.8",
     "nsfw": 0,
     "sources": [
       {
@@ -2984,7 +2984,7 @@
         "name": "HDS",
         "lang": "fr",
         "id": "3206613581297348563",
-        "baseUrl": "https://www.hds.quest"
+        "baseUrl": "https://on1.hds.quest"
       }
     ]
   },
