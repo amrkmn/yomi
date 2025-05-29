@@ -14097,10 +14097,10 @@
   {
     "name": "Tachiyomi: SpyFakku",
     "pkg": "eu.kanade.tachiyomi.extension.en.spyfakku",
-    "apk": "tachiyomi-en.spyfakku-v1.4.10.apk",
+    "apk": "tachiyomi-en.spyfakku-v1.4.11.apk",
     "lang": "en",
-    "code": 10,
-    "version": "1.4.10",
+    "code": 11,
+    "version": "1.4.11",
     "nsfw": 1,
     "sources": [
       {
@@ -15820,10 +15820,10 @@
   {
     "name": "Tachiyomi: Jeaz Scans",
     "pkg": "eu.kanade.tachiyomi.extension.es.jeazscans",
-    "apk": "tachiyomi-es.jeazscans-v1.4.45.apk",
+    "apk": "tachiyomi-es.jeazscans-v1.4.47.apk",
     "lang": "es",
-    "code": 45,
-    "version": "1.4.45",
+    "code": 47,
+    "version": "1.4.47",
     "nsfw": 0,
     "sources": [
       {
@@ -20416,19 +20416,19 @@
         "name": "늑대닷컴 - 웹툰",
         "lang": "ko",
         "id": "5583626852311652499",
-        "baseUrl": "https://wfwf391.com"
+        "baseUrl": "https://wfwf392.com"
       },
       {
         "name": "늑대닷컴 - 만화책",
         "lang": "ko",
         "id": "7074060458114951398",
-        "baseUrl": "https://wfwf391.com"
+        "baseUrl": "https://wfwf392.com"
       },
       {
         "name": "늑대닷컴 - 포토툰",
         "lang": "ko",
         "id": "4225505094399546613",
-        "baseUrl": "https://wfwf391.com"
+        "baseUrl": "https://wfwf392.com"
       }
     ]
   },
@@ -23546,17 +23546,17 @@
   {
     "name": "Tachiyomi: Moodtoon",
     "pkg": "eu.kanade.tachiyomi.extension.th.moodtoon",
-    "apk": "tachiyomi-th.moodtoon-v1.4.30.apk",
+    "apk": "tachiyomi-th.moodtoon-v1.4.31.apk",
     "lang": "th",
-    "code": 30,
-    "version": "1.4.30",
+    "code": 31,
+    "version": "1.4.31",
     "nsfw": 1,
     "sources": [
       {
         "name": "Moodtoon",
         "lang": "th",
         "id": "8560199796461456661",
-        "baseUrl": "https://moodtoon.net"
+        "baseUrl": "https://moon-toon.com"
       }
     ]
   },
@@ -23625,6 +23625,23 @@
         "lang": "th",
         "id": "2123874844305574539",
         "baseUrl": "https://www.ntr-manga.com"
+      }
+    ]
+  },
+  {
+    "name": "Tachiyomi: OneManga",
+    "pkg": "eu.kanade.tachiyomi.extension.th.onemanga",
+    "apk": "tachiyomi-th.onemanga-v1.4.30.apk",
+    "lang": "th",
+    "code": 30,
+    "version": "1.4.30",
+    "nsfw": 1,
+    "sources": [
+      {
+        "name": "One-Manga",
+        "lang": "th",
+        "id": "2248402620929558947",
+        "baseUrl": "https://one-manga.com"
       }
     ]
   },
