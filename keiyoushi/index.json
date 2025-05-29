@@ -7019,6 +7019,23 @@
     ]
   },
   {
+    "name": "Tachiyomi: Xiutaku",
+    "pkg": "eu.kanade.tachiyomi.extension.all.xiutaku",
+    "apk": "tachiyomi-all.xiutaku-v1.4.1.apk",
+    "lang": "all",
+    "code": 1,
+    "version": "1.4.1",
+    "nsfw": 1,
+    "sources": [
+      {
+        "name": "Xiutaku",
+        "lang": "all",
+        "id": "6520733892888572506",
+        "baseUrl": "https://xiutaku.com"
+      }
+    ]
+  },
+  {
     "name": "Tachiyomi: xkcd",
     "pkg": "eu.kanade.tachiyomi.extension.all.xkcd",
     "apk": "tachiyomi-all.xkcd-v1.4.13.apk",
