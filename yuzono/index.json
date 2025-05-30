@@ -1299,6 +1299,23 @@
     ]
   },
   {
+    "name": "Aniyomi: Aniwave.se",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.aniwavese",
+    "apk": "aniyomi-en.aniwavese-v14.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "14.1",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "Aniwave.se",
+        "lang": "en",
+        "id": "9214453798655370088",
+        "baseUrl": "https://aniwave.se"
+      }
+    ]
+  },
+  {
     "name": "Aniyomi: AsiaFlix",
     "pkg": "eu.kanade.tachiyomi.animeextension.en.asiaflix",
     "apk": "aniyomi-en.asiaflix-v14.21.apk",
