@@ -706,17 +706,17 @@
   {
     "name": "Aniyomi: Animerco",
     "pkg": "eu.kanade.tachiyomi.animeextension.ar.animerco",
-    "apk": "aniyomi-ar.animerco-v14.45.apk",
+    "apk": "aniyomi-ar.animerco-v14.46.apk",
     "lang": "ar",
-    "code": 45,
-    "version": "14.45",
+    "code": 46,
+    "version": "14.46",
     "nsfw": 0,
     "sources": [
       {
         "name": "Animerco",
         "lang": "ar",
         "id": "4435835034990361158",
-        "baseUrl": "https://animerco.org"
+        "baseUrl": "https://web.animerco.org"
       }
     ]
   },
