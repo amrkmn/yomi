@@ -1879,17 +1879,17 @@
   {
     "name": "Aniyomi: Wcofun",
     "pkg": "eu.kanade.tachiyomi.animeextension.en.wcofun",
-    "apk": "aniyomi-en.wcofun-v14.14.apk",
+    "apk": "aniyomi-en.wcofun-v14.15.apk",
     "lang": "en",
-    "code": 14,
-    "version": "14.14",
+    "code": 15,
+    "version": "14.15",
     "nsfw": 0,
     "sources": [
       {
         "name": "Wcofun",
         "lang": "en",
         "id": "1677488626877212634",
-        "baseUrl": "https://www.wcofun.net"
+        "baseUrl": "https://www.wcoflix.tv"
       }
     ]
   },
