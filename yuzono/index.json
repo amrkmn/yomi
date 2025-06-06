@@ -1877,12 +1877,63 @@
     ]
   },
   {
+    "name": "Aniyomi: WcoAnimeDub",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.wcoanimedub",
+    "apk": "aniyomi-en.wcoanimedub-v14.2.apk",
+    "lang": "en",
+    "code": 2,
+    "version": "14.2",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "WcoAnimeDub",
+        "lang": "en",
+        "id": "8622868574170180857",
+        "baseUrl": "https://www.wcoanimedub.tv"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: WcoAnimeSub",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.wcoanimesub",
+    "apk": "aniyomi-en.wcoanimesub-v14.2.apk",
+    "lang": "en",
+    "code": 2,
+    "version": "14.2",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "WcoAnimeSub",
+        "lang": "en",
+        "id": "665629163594938512",
+        "baseUrl": "https://www.wcoanimesub.tv"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: WcoForever",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.wcoforever",
+    "apk": "aniyomi-en.wcoforever-v14.2.apk",
+    "lang": "en",
+    "code": 2,
+    "version": "14.2",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "WcoForever",
+        "lang": "en",
+        "id": "5805164799487731673",
+        "baseUrl": "https://www.wcoforever.net"
+      }
+    ]
+  },
+  {
     "name": "Aniyomi: Wcofun",
     "pkg": "eu.kanade.tachiyomi.animeextension.en.wcofun",
-    "apk": "aniyomi-en.wcofun-v14.15.apk",
+    "apk": "aniyomi-en.wcofun-v14.16.apk",
     "lang": "en",
-    "code": 15,
-    "version": "14.15",
+    "code": 16,
+    "version": "14.16",
     "nsfw": 0,
     "sources": [
       {
@@ -1896,10 +1947,10 @@
   {
     "name": "Aniyomi: WCOStream",
     "pkg": "eu.kanade.tachiyomi.animeextension.en.wcostream",
-    "apk": "aniyomi-en.wcostream-v14.6.apk",
+    "apk": "aniyomi-en.wcostream-v14.7.apk",
     "lang": "en",
-    "code": 6,
-    "version": "14.6",
+    "code": 7,
+    "version": "14.7",
     "nsfw": 0,
     "sources": [
       {
@@ -1911,19 +1962,36 @@
     ]
   },
   {
+    "name": "Aniyomi: WcoTv",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.wcotv",
+    "apk": "aniyomi-en.wcotv-v14.2.apk",
+    "lang": "en",
+    "code": 2,
+    "version": "14.2",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "WcoTv",
+        "lang": "en",
+        "id": "648702763126013078",
+        "baseUrl": "https://www.wco.tv"
+      }
+    ]
+  },
+  {
     "name": "Aniyomi: HiAnime",
     "pkg": "eu.kanade.tachiyomi.animeextension.en.zoro",
-    "apk": "aniyomi-en.zoro-v14.59.apk",
+    "apk": "aniyomi-en.zoro-v14.60.apk",
     "lang": "en",
-    "code": 59,
-    "version": "14.59",
+    "code": 60,
+    "version": "14.60",
     "nsfw": 0,
     "sources": [
       {
         "name": "HiAnime",
         "lang": "en",
         "id": "6706411382606718900",
-        "baseUrl": "https://hianimez.to"
+        "baseUrl": "https://hianime.to"
       }
     ]
   },
