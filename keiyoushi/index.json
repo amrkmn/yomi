@@ -3039,10 +3039,10 @@
   {
     "name": "Tachiyomi: HNI-Scantrad",
     "pkg": "eu.kanade.tachiyomi.extension.all.hniscantrad",
-    "apk": "tachiyomi-all.hniscantrad-v1.4.8.apk",
+    "apk": "tachiyomi-all.hniscantrad-v1.4.9.apk",
     "lang": "all",
-    "code": 8,
-    "version": "1.4.8",
+    "code": 9,
+    "version": "1.4.9",
     "nsfw": 0,
     "sources": [
       {
@@ -12531,6 +12531,23 @@
     ]
   },
   {
+    "name": "Tachiyomi: MayoTune",
+    "pkg": "eu.kanade.tachiyomi.extension.en.mayotune",
+    "apk": "tachiyomi-en.mayotune-v1.4.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "1.4.1",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "MayoTune",
+        "lang": "en",
+        "id": "1480743237782384863",
+        "baseUrl": "https://mayotune.xyz"
+      }
+    ]
+  },
+  {
     "name": "Tachiyomi: Megatokyo",
     "pkg": "eu.kanade.tachiyomi.extension.en.megatokyo",
     "apk": "tachiyomi-en.megatokyo-v1.4.3.apk",
@@ -14834,10 +14851,10 @@
   {
     "name": "Tachiyomi: Weeb Central",
     "pkg": "eu.kanade.tachiyomi.extension.en.weebcentral",
-    "apk": "tachiyomi-en.weebcentral-v1.4.14.apk",
+    "apk": "tachiyomi-en.weebcentral-v1.4.15.apk",
     "lang": "en",
-    "code": 14,
-    "version": "1.4.14",
+    "code": 15,
+    "version": "1.4.15",
     "nsfw": 1,
     "sources": [
       {
@@ -17084,10 +17101,10 @@
   {
     "name": "Tachiyomi: Blue Solo",
     "pkg": "eu.kanade.tachiyomi.extension.fr.bluesolo",
-    "apk": "tachiyomi-fr.bluesolo-v1.4.3.apk",
+    "apk": "tachiyomi-fr.bluesolo-v1.4.4.apk",
     "lang": "fr",
-    "code": 3,
-    "version": "1.4.3",
+    "code": 4,
+    "version": "1.4.4",
     "nsfw": 0,
     "sources": [
       {
@@ -17152,10 +17169,10 @@
   {
     "name": "Tachiyomi: FMTEAM",
     "pkg": "eu.kanade.tachiyomi.extension.fr.fmteam",
-    "apk": "tachiyomi-fr.fmteam-v1.4.6.apk",
+    "apk": "tachiyomi-fr.fmteam-v1.4.7.apk",
     "lang": "fr",
-    "code": 6,
-    "version": "1.4.6",
+    "code": 7,
+    "version": "1.4.7",
     "nsfw": 0,
     "sources": [
       {
@@ -17458,10 +17475,10 @@
   {
     "name": "Tachiyomi: PhenixScans",
     "pkg": "eu.kanade.tachiyomi.extension.fr.phenixscans",
-    "apk": "tachiyomi-fr.phenixscans-v1.4.34.apk",
+    "apk": "tachiyomi-fr.phenixscans-v1.4.35.apk",
     "lang": "fr",
-    "code": 34,
-    "version": "1.4.34",
+    "code": 35,
+    "version": "1.4.35",
     "nsfw": 0,
     "sources": [
       {
@@ -17475,10 +17492,10 @@
   {
     "name": "Tachiyomi: Poseidon Scans",
     "pkg": "eu.kanade.tachiyomi.extension.fr.poseidonscans",
-    "apk": "tachiyomi-fr.poseidonscans-v1.4.43.apk",
+    "apk": "tachiyomi-fr.poseidonscans-v1.4.44.apk",
     "lang": "fr",
-    "code": 43,
-    "version": "1.4.43",
+    "code": 44,
+    "version": "1.4.44",
     "nsfw": 0,
     "sources": [
       {
@@ -19158,10 +19175,10 @@
   {
     "name": "Tachiyomi: GTO The Great Site",
     "pkg": "eu.kanade.tachiyomi.extension.it.gto",
-    "apk": "tachiyomi-it.gto-v1.4.6.apk",
+    "apk": "tachiyomi-it.gto-v1.4.7.apk",
     "lang": "it",
-    "code": 6,
-    "version": "1.4.6",
+    "code": 7,
+    "version": "1.4.7",
     "nsfw": 0,
     "sources": [
       {
@@ -19175,10 +19192,10 @@
   {
     "name": "Tachiyomi: Hasta Team",
     "pkg": "eu.kanade.tachiyomi.extension.it.hastateam",
-    "apk": "tachiyomi-it.hastateam-v1.4.3.apk",
+    "apk": "tachiyomi-it.hastateam-v1.4.4.apk",
     "lang": "it",
-    "code": 3,
-    "version": "1.4.3",
+    "code": 4,
+    "version": "1.4.4",
     "nsfw": 0,
     "sources": [
       {
@@ -19226,10 +19243,10 @@
   {
     "name": "Tachiyomi: LupiTeam",
     "pkg": "eu.kanade.tachiyomi.extension.it.lupiteam",
-    "apk": "tachiyomi-it.lupiteam-v1.4.6.apk",
+    "apk": "tachiyomi-it.lupiteam-v1.4.7.apk",
     "lang": "it",
-    "code": 6,
-    "version": "1.4.6",
+    "code": 7,
+    "version": "1.4.7",
     "nsfw": 0,
     "sources": [
       {
@@ -19294,10 +19311,10 @@
   {
     "name": "Tachiyomi: Phoenix Scans",
     "pkg": "eu.kanade.tachiyomi.extension.it.phoenixscans",
-    "apk": "tachiyomi-it.phoenixscans-v1.4.7.apk",
+    "apk": "tachiyomi-it.phoenixscans-v1.4.8.apk",
     "lang": "it",
-    "code": 7,
-    "version": "1.4.7",
+    "code": 8,
+    "version": "1.4.8",
     "nsfw": 0,
     "sources": [
       {
@@ -19328,10 +19345,10 @@
   {
     "name": "Tachiyomi: TuttoAnimeManga",
     "pkg": "eu.kanade.tachiyomi.extension.it.tuttoanimemanga",
-    "apk": "tachiyomi-it.tuttoanimemanga-v1.4.8.apk",
+    "apk": "tachiyomi-it.tuttoanimemanga-v1.4.9.apk",
     "lang": "it",
-    "code": 8,
-    "version": "1.4.8",
+    "code": 9,
+    "version": "1.4.9",
     "nsfw": 0,
     "sources": [
       {
@@ -20622,10 +20639,10 @@
   {
     "name": "Tachiyomi: Argos Scan",
     "pkg": "eu.kanade.tachiyomi.extension.pt.argosscan",
-    "apk": "tachiyomi-pt.argosscan-v1.4.24.apk",
+    "apk": "tachiyomi-pt.argosscan-v1.4.25.apk",
     "lang": "pt-BR",
-    "code": 24,
-    "version": "1.4.24",
+    "code": 25,
+    "version": "1.4.25",
     "nsfw": 0,
     "sources": [
       {
@@ -26453,17 +26470,17 @@
   {
     "name": "Tachiyomi: Manwa",
     "pkg": "eu.kanade.tachiyomi.extension.zh.manwa",
-    "apk": "tachiyomi-zh.manwa-v1.4.10.apk",
+    "apk": "tachiyomi-zh.manwa-v1.4.11.apk",
     "lang": "zh",
-    "code": 10,
-    "version": "1.4.10",
+    "code": 11,
+    "version": "1.4.11",
     "nsfw": 1,
     "sources": [
       {
         "name": "漫蛙",
         "lang": "zh",
         "id": "1795888684783606321",
-        "baseUrl": "https://manwa.fun"
+        "baseUrl": "https://manwa.me"
       }
     ]
   },
@@ -26549,6 +26566,23 @@
         "lang": "zh",
         "id": "3647420805839021718",
         "baseUrl": "https://roum20.xyz"
+      }
+    ]
+  },
+  {
+    "name": "Tachiyomi: Rumanhua",
+    "pkg": "eu.kanade.tachiyomi.extension.zh.rumanhua",
+    "apk": "tachiyomi-zh.rumanhua-v1.4.1.apk",
+    "lang": "zh",
+    "code": 1,
+    "version": "1.4.1",
+    "nsfw": 1,
+    "sources": [
+      {
+        "name": "如漫画",
+        "lang": "zh",
+        "id": "392262758488714109",
+        "baseUrl": "http://www.rumanhua1.com"
       }
     ]
   },
