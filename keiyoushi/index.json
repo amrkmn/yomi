@@ -12533,10 +12533,10 @@
   {
     "name": "Tachiyomi: MayoTune",
     "pkg": "eu.kanade.tachiyomi.extension.en.mayotune",
-    "apk": "tachiyomi-en.mayotune-v1.4.1.apk",
+    "apk": "tachiyomi-en.mayotune-v1.4.2.apk",
     "lang": "en",
-    "code": 1,
-    "version": "1.4.1",
+    "code": 2,
+    "version": "1.4.2",
     "nsfw": 0,
     "sources": [
       {
@@ -19887,6 +19887,23 @@
     ]
   },
   {
+    "name": "Tachiyomi: MomonGA",
+    "pkg": "eu.kanade.tachiyomi.extension.ja.momonga",
+    "apk": "tachiyomi-ja.momonga-v1.4.1.apk",
+    "lang": "ja",
+    "code": 1,
+    "version": "1.4.1",
+    "nsfw": 1,
+    "sources": [
+      {
+        "name": "momon:GA",
+        "lang": "ja",
+        "id": "5332628982027198645",
+        "baseUrl": "https://momon-ga.com"
+      }
+    ]
+  },
+  {
     "name": "Tachiyomi: Nicomanga",
     "pkg": "eu.kanade.tachiyomi.extension.ja.nicomanga",
     "apk": "tachiyomi-ja.nicomanga-v1.4.10.apk",
@@ -20440,29 +20457,29 @@
   {
     "name": "Tachiyomi: Wolf.com",
     "pkg": "eu.kanade.tachiyomi.extension.ko.wolfdotcom",
-    "apk": "tachiyomi-ko.wolfdotcom-v1.4.2.apk",
+    "apk": "tachiyomi-ko.wolfdotcom-v1.4.3.apk",
     "lang": "ko",
-    "code": 2,
-    "version": "1.4.2",
+    "code": 3,
+    "version": "1.4.3",
     "nsfw": 1,
     "sources": [
       {
         "name": "늑대닷컴 - 웹툰",
         "lang": "ko",
         "id": "5583626852311652499",
-        "baseUrl": "https://wfwf393.com"
+        "baseUrl": "https://wfwf394.com"
       },
       {
         "name": "늑대닷컴 - 만화책",
         "lang": "ko",
         "id": "7074060458114951398",
-        "baseUrl": "https://wfwf393.com"
+        "baseUrl": "https://wfwf394.com"
       },
       {
         "name": "늑대닷컴 - 포토툰",
         "lang": "ko",
         "id": "4225505094399546613",
-        "baseUrl": "https://wfwf393.com"
+        "baseUrl": "https://wfwf394.com"
       }
     ]
   },
@@ -22951,17 +22968,17 @@
   {
     "name": "Tachiyomi: Manga One Love",
     "pkg": "eu.kanade.tachiyomi.extension.ru.mangaonelove",
-    "apk": "tachiyomi-ru.mangaonelove-v1.4.43.apk",
+    "apk": "tachiyomi-ru.mangaonelove-v1.4.44.apk",
     "lang": "ru",
-    "code": 43,
-    "version": "1.4.43",
+    "code": 44,
+    "version": "1.4.44",
     "nsfw": 1,
     "sources": [
       {
         "name": "Manga One Love",
         "lang": "ru",
         "id": "1599250672484160230",
-        "baseUrl": "https://mangaonelove.site"
+        "baseUrl": "https://mangaonelove.ru"
       }
     ]
   },
@@ -26487,10 +26504,10 @@
   {
     "name": "Tachiyomi: MyComic",
     "pkg": "eu.kanade.tachiyomi.extension.zh.mycomic",
-    "apk": "tachiyomi-zh.mycomic-v1.4.1.apk",
+    "apk": "tachiyomi-zh.mycomic-v1.4.2.apk",
     "lang": "zh",
-    "code": 1,
-    "version": "1.4.1",
+    "code": 2,
+    "version": "1.4.2",
     "nsfw": 1,
     "sources": [
       {
@@ -26572,10 +26589,10 @@
   {
     "name": "Tachiyomi: Rumanhua",
     "pkg": "eu.kanade.tachiyomi.extension.zh.rumanhua",
-    "apk": "tachiyomi-zh.rumanhua-v1.4.1.apk",
+    "apk": "tachiyomi-zh.rumanhua-v1.4.2.apk",
     "lang": "zh",
-    "code": 1,
-    "version": "1.4.1",
+    "code": 2,
+    "version": "1.4.2",
     "nsfw": 1,
     "sources": [
       {
