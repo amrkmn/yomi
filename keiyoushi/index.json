@@ -1524,10 +1524,10 @@
   {
     "name": "Tachiyomi: DeviantArt",
     "pkg": "eu.kanade.tachiyomi.extension.all.deviantart",
-    "apk": "tachiyomi-all.deviantart-v1.4.8.apk",
+    "apk": "tachiyomi-all.deviantart-v1.4.9.apk",
     "lang": "all",
-    "code": 8,
-    "version": "1.4.8",
+    "code": 9,
+    "version": "1.4.9",
     "nsfw": 1,
     "sources": [
       {
@@ -1898,35 +1898,6 @@
         "lang": "all",
         "id": "6842598531101194683",
         "baseUrl": "https://www.elitebabes.com"
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: EternalMangas",
-    "pkg": "eu.kanade.tachiyomi.extension.all.eternalmangas",
-    "apk": "tachiyomi-all.eternalmangas-v1.4.9.apk",
-    "lang": "all",
-    "code": 9,
-    "version": "1.4.9",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "EternalMangas",
-        "lang": "es",
-        "id": "1533901034425595323",
-        "baseUrl": "https://eternalmangas.com"
-      },
-      {
-        "name": "EternalMangas",
-        "lang": "en",
-        "id": "5438790096530288259",
-        "baseUrl": "https://eternalmangas.com"
-      },
-      {
-        "name": "EternalMangas",
-        "lang": "pt-BR",
-        "id": "4895816221191932497",
-        "baseUrl": "https://eternalmangas.com"
       }
     ]
   },
@@ -3638,10 +3609,10 @@
   {
     "name": "Tachiyomi: MangaDex",
     "pkg": "eu.kanade.tachiyomi.extension.all.mangadex",
-    "apk": "tachiyomi-all.mangadex-v1.4.201.apk",
+    "apk": "tachiyomi-all.mangadex-v1.4.202.apk",
     "lang": "all",
-    "code": 201,
-    "version": "1.4.201",
+    "code": 202,
+    "version": "1.4.202",
     "nsfw": 1,
     "sources": [
       {
@@ -9949,10 +9920,10 @@
   {
     "name": "Tachiyomi: Hiveworks Comics",
     "pkg": "eu.kanade.tachiyomi.extension.en.hiveworks",
-    "apk": "tachiyomi-en.hiveworks-v1.4.9.apk",
+    "apk": "tachiyomi-en.hiveworks-v1.4.10.apk",
     "lang": "en",
-    "code": 9,
-    "version": "1.4.9",
+    "code": 10,
+    "version": "1.4.10",
     "nsfw": 0,
     "sources": [
       {
@@ -12006,10 +11977,10 @@
   {
     "name": "Tachiyomi: Manhua Plus",
     "pkg": "eu.kanade.tachiyomi.extension.en.manhuaplus",
-    "apk": "tachiyomi-en.manhuaplus-v1.4.48.apk",
+    "apk": "tachiyomi-en.manhuaplus-v1.4.49.apk",
     "lang": "en",
-    "code": 48,
-    "version": "1.4.48",
+    "code": 49,
+    "version": "1.4.49",
     "nsfw": 0,
     "sources": [
       {
@@ -15614,6 +15585,23 @@
     ]
   },
   {
+    "name": "Tachiyomi: EternalMangas",
+    "pkg": "eu.kanade.tachiyomi.extension.es.eternalmangas",
+    "apk": "tachiyomi-es.eternalmangas-v1.4.10.apk",
+    "lang": "es",
+    "code": 10,
+    "version": "1.4.10",
+    "nsfw": 1,
+    "sources": [
+      {
+        "name": "EternalMangas",
+        "lang": "es",
+        "id": "1533901034425595323",
+        "baseUrl": "https://eternalmangas.com"
+      }
+    ]
+  },
+  {
     "name": "Tachiyomi: Foy Scan",
     "pkg": "eu.kanade.tachiyomi.extension.es.foyscan",
     "apk": "tachiyomi-es.foyscan-v1.4.5.apk",
@@ -17509,10 +17497,10 @@
   {
     "name": "Tachiyomi: Raijin Scans",
     "pkg": "eu.kanade.tachiyomi.extension.fr.raijinscans",
-    "apk": "tachiyomi-fr.raijinscans-v1.4.46.apk",
+    "apk": "tachiyomi-fr.raijinscans-v1.4.47.apk",
     "lang": "fr",
-    "code": 46,
-    "version": "1.4.46",
+    "code": 47,
+    "version": "1.4.47",
     "nsfw": 0,
     "sources": [
       {
@@ -20656,10 +20644,10 @@
   {
     "name": "Tachiyomi: Argos Scan",
     "pkg": "eu.kanade.tachiyomi.extension.pt.argosscan",
-    "apk": "tachiyomi-pt.argosscan-v1.4.25.apk",
+    "apk": "tachiyomi-pt.argosscan-v1.4.26.apk",
     "lang": "pt-BR",
-    "code": 25,
-    "version": "1.4.25",
+    "code": 26,
+    "version": "1.4.26",
     "nsfw": 0,
     "sources": [
       {
@@ -23121,34 +23109,34 @@
   {
     "name": "Tachiyomi: Senkognito",
     "pkg": "eu.kanade.tachiyomi.extension.ru.senkognito",
-    "apk": "tachiyomi-ru.senkognito-v1.4.5.apk",
+    "apk": "tachiyomi-ru.senkognito-v1.4.6.apk",
     "lang": "ru",
-    "code": 5,
-    "version": "1.4.5",
+    "code": 6,
+    "version": "1.4.6",
     "nsfw": 1,
     "sources": [
       {
         "name": "Senkognito",
         "lang": "ru",
         "id": "8393977756208732343",
-        "baseUrl": "https://senkognito.com"
+        "baseUrl": "https://ne.senkognito.com"
       }
     ]
   },
   {
     "name": "Tachiyomi: Senkuro",
     "pkg": "eu.kanade.tachiyomi.extension.ru.senkuro",
-    "apk": "tachiyomi-ru.senkuro-v1.4.4.apk",
+    "apk": "tachiyomi-ru.senkuro-v1.4.5.apk",
     "lang": "ru",
-    "code": 4,
-    "version": "1.4.4",
+    "code": 5,
+    "version": "1.4.5",
     "nsfw": 0,
     "sources": [
       {
         "name": "Senkuro",
         "lang": "ru",
         "id": "1452500215874655811",
-        "baseUrl": "https://senkuro.com"
+        "baseUrl": "https://senkuro.me"
       }
     ]
   },
