@@ -6685,10 +6685,10 @@
   {
     "name": "Tachiyomi: Webtoons.com",
     "pkg": "eu.kanade.tachiyomi.extension.all.webtoons",
-    "apk": "tachiyomi-all.webtoons-v1.4.45.apk",
+    "apk": "tachiyomi-all.webtoons-v1.4.47.apk",
     "lang": "all",
-    "code": 45,
-    "version": "1.4.45",
+    "code": 47,
+    "version": "1.4.47",
     "nsfw": 0,
     "sources": [
       {
@@ -6738,10 +6738,10 @@
   {
     "name": "Tachiyomi: Webtoons.com Translations",
     "pkg": "eu.kanade.tachiyomi.extension.all.webtoonstranslate",
-    "apk": "tachiyomi-all.webtoonstranslate-v1.4.8.apk",
+    "apk": "tachiyomi-all.webtoonstranslate-v1.4.9.apk",
     "lang": "all",
-    "code": 8,
-    "version": "1.4.8",
+    "code": 9,
+    "version": "1.4.9",
     "nsfw": 0,
     "sources": [
       {
@@ -21154,17 +21154,17 @@
   {
     "name": "Tachiyomi: Ghost Scan",
     "pkg": "eu.kanade.tachiyomi.extension.pt.ghostscan",
-    "apk": "tachiyomi-pt.ghostscan-v1.4.42.apk",
+    "apk": "tachiyomi-pt.ghostscan-v1.4.43.apk",
     "lang": "pt-BR",
-    "code": 42,
-    "version": "1.4.42",
+    "code": 43,
+    "version": "1.4.43",
     "nsfw": 1,
     "sources": [
       {
         "name": "Ghost Scan",
         "lang": "pt-BR",
         "id": "2150748053027323425",
-        "baseUrl": "https://ghostscan.com.br"
+        "baseUrl": "https://ghostscan.xyz"
       }
     ]
   },
@@ -21715,10 +21715,10 @@
   {
     "name": "Tachiyomi: Manhastro",
     "pkg": "eu.kanade.tachiyomi.extension.pt.manhastro",
-    "apk": "tachiyomi-pt.manhastro-v1.4.49.apk",
+    "apk": "tachiyomi-pt.manhastro-v1.4.50.apk",
     "lang": "pt-BR",
-    "code": 49,
-    "version": "1.4.49",
+    "code": 50,
+    "version": "1.4.50",
     "nsfw": 1,
     "sources": [
       {
@@ -25727,17 +25727,17 @@
   {
     "name": "Tachiyomi: NhatTruyen",
     "pkg": "eu.kanade.tachiyomi.extension.vi.nhattruyen",
-    "apk": "tachiyomi-vi.nhattruyen-v1.4.26.apk",
+    "apk": "tachiyomi-vi.nhattruyen-v1.4.27.apk",
     "lang": "vi",
-    "code": 26,
-    "version": "1.4.26",
+    "code": 27,
+    "version": "1.4.27",
     "nsfw": 0,
     "sources": [
       {
         "name": "NhatTruyen",
         "lang": "vi",
         "id": "6861496002170366525",
-        "baseUrl": "https://nhattruyenv.com"
+        "baseUrl": "https://nhattruyenqq.com"
       }
     ]
   },
@@ -26220,10 +26220,10 @@
   {
     "name": "Tachiyomi: Dongman Manhua",
     "pkg": "eu.kanade.tachiyomi.extension.zh.dongmanmanhua",
-    "apk": "tachiyomi-zh.dongmanmanhua-v1.4.4.apk",
+    "apk": "tachiyomi-zh.dongmanmanhua-v1.4.5.apk",
     "lang": "zh",
-    "code": 4,
-    "version": "1.4.4",
+    "code": 5,
+    "version": "1.4.5",
     "nsfw": 0,
     "sources": [
       {
