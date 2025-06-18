@@ -455,35 +455,35 @@
   {
     "name": "Aniyomi: StreamingCommunity",
     "pkg": "eu.kanade.tachiyomi.animeextension.all.streamingcommunity",
-    "apk": "aniyomi-all.streamingcommunity-v14.11.apk",
+    "apk": "aniyomi-all.streamingcommunity-v14.12.apk",
     "lang": "all",
-    "code": 11,
-    "version": "14.11",
+    "code": 12,
+    "version": "14.12",
     "nsfw": 0,
     "sources": [
       {
         "name": "StreamingUnity (Movie)",
         "lang": "en",
         "id": "665657603807796138",
-        "baseUrl": "https://streamingunity.art/en"
+        "baseUrl": "https://streamingunity.cam/en"
       },
       {
         "name": "StreamingUnity (Movie)",
         "lang": "it",
         "id": "502708102217708509",
-        "baseUrl": "https://streamingunity.art/it"
+        "baseUrl": "https://streamingunity.cam/it"
       },
       {
         "name": "StreamingUnity (Tv)",
         "lang": "en",
         "id": "349088835984594821",
-        "baseUrl": "https://streamingunity.art/en"
+        "baseUrl": "https://streamingunity.cam/en"
       },
       {
         "name": "StreamingUnity (Tv)",
         "lang": "it",
         "id": "7246470104959245892",
-        "baseUrl": "https://streamingunity.art/it"
+        "baseUrl": "https://streamingunity.cam/it"
       }
     ]
   },
