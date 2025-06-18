@@ -1014,10 +1014,10 @@
   {
     "name": "Tachiyomi: Comic Growl",
     "pkg": "eu.kanade.tachiyomi.extension.all.comicgrowl",
-    "apk": "tachiyomi-all.comicgrowl-v1.4.6.apk",
+    "apk": "tachiyomi-all.comicgrowl-v1.4.7.apk",
     "lang": "all",
-    "code": 6,
-    "version": "1.4.6",
+    "code": 7,
+    "version": "1.4.7",
     "nsfw": 0,
     "sources": [
       {
@@ -6248,6 +6248,23 @@
         "lang": "en",
         "id": "2182293259752111417",
         "baseUrl": "https://ravens-scans.com"
+      }
+    ]
+  },
+  {
+    "name": "Tachiyomi: SakuraManhwa",
+    "pkg": "eu.kanade.tachiyomi.extension.all.sakuramanhwa",
+    "apk": "tachiyomi-all.sakuramanhwa-v1.4.1.apk",
+    "lang": "all",
+    "code": 1,
+    "version": "1.4.1",
+    "nsfw": 1,
+    "sources": [
+      {
+        "name": "SakuraManhwa",
+        "lang": "all",
+        "id": "1781921631032816989",
+        "baseUrl": "https://api.sakuramanhwa.com"
       }
     ]
   },
@@ -17565,17 +17582,17 @@
   {
     "name": "Tachiyomi: X-Manga",
     "pkg": "eu.kanade.tachiyomi.extension.fr.scanhentaimenu",
-    "apk": "tachiyomi-fr.scanhentaimenu-v1.4.44.apk",
+    "apk": "tachiyomi-fr.scanhentaimenu-v1.4.45.apk",
     "lang": "fr",
-    "code": 44,
-    "version": "1.4.44",
+    "code": 45,
+    "version": "1.4.45",
     "nsfw": 1,
     "sources": [
       {
         "name": "X-Manga",
         "lang": "fr",
         "id": "4153742697148883998",
-        "baseUrl": "https://x-manga.net"
+        "baseUrl": "https://x-manga.org"
       }
     ]
   },
@@ -17837,17 +17854,17 @@
   {
     "name": "Tachiyomi: CosmicScans.id",
     "pkg": "eu.kanade.tachiyomi.extension.id.cosmicscansid",
-    "apk": "tachiyomi-id.cosmicscansid-v1.4.38.apk",
+    "apk": "tachiyomi-id.cosmicscansid-v1.4.39.apk",
     "lang": "id",
-    "code": 38,
-    "version": "1.4.38",
+    "code": 39,
+    "version": "1.4.39",
     "nsfw": 1,
     "sources": [
       {
         "name": "CosmicScans.id",
         "lang": "id",
         "id": "6559481336553833282",
-        "baseUrl": "https://kmvs03.com"
+        "baseUrl": "https://lc.cosmicscans.asia"
       }
     ]
   },
@@ -18177,17 +18194,17 @@
   {
     "name": "Tachiyomi: KomikIndo.co",
     "pkg": "eu.kanade.tachiyomi.extension.id.komikindoco",
-    "apk": "tachiyomi-id.komikindoco-v1.4.34.apk",
+    "apk": "tachiyomi-id.komikindoco-v1.4.35.apk",
     "lang": "id",
-    "code": 34,
-    "version": "1.4.34",
+    "code": 35,
+    "version": "1.4.35",
     "nsfw": 1,
     "sources": [
       {
         "name": "KomikIndo.co",
         "lang": "id",
         "id": "734619124437406170",
-        "baseUrl": "https://komiksin.id"
+        "baseUrl": "https://komiksin.net"
       }
     ]
   },
@@ -18534,17 +18551,17 @@
   {
     "name": "Tachiyomi: Ikiru",
     "pkg": "eu.kanade.tachiyomi.extension.id.mangatale",
-    "apk": "tachiyomi-id.mangatale-v1.4.37.apk",
+    "apk": "tachiyomi-id.mangatale-v1.4.38.apk",
     "lang": "id",
-    "code": 37,
-    "version": "1.4.37",
+    "code": 38,
+    "version": "1.4.38",
     "nsfw": 1,
     "sources": [
       {
         "name": "Ikiru",
         "lang": "id",
         "id": "1532456597012176985",
-        "baseUrl": "https://ikiru.world"
+        "baseUrl": "https://id.ikiru.wtf"
       }
     ]
   },
@@ -20455,19 +20472,19 @@
         "name": "늑대닷컴 - 웹툰",
         "lang": "ko",
         "id": "5583626852311652499",
-        "baseUrl": "https://wfwf394.com"
+        "baseUrl": "https://wfwf395.com"
       },
       {
         "name": "늑대닷컴 - 만화책",
         "lang": "ko",
         "id": "7074060458114951398",
-        "baseUrl": "https://wfwf394.com"
+        "baseUrl": "https://wfwf395.com"
       },
       {
         "name": "늑대닷컴 - 포토툰",
         "lang": "ko",
         "id": "4225505094399546613",
-        "baseUrl": "https://wfwf394.com"
+        "baseUrl": "https://wfwf395.com"
       }
     ]
   },
@@ -22718,10 +22735,10 @@
   {
     "name": "Tachiyomi: Yushuke Mangas",
     "pkg": "eu.kanade.tachiyomi.extension.pt.yushukemangas",
-    "apk": "tachiyomi-pt.yushukemangas-v1.4.7.apk",
+    "apk": "tachiyomi-pt.yushukemangas-v1.4.8.apk",
     "lang": "pt-BR",
-    "code": 7,
-    "version": "1.4.7",
+    "code": 8,
+    "version": "1.4.8",
     "nsfw": 0,
     "sources": [
       {
@@ -24826,17 +24843,17 @@
   {
     "name": "Tachiyomi: Moon Daisy Scans",
     "pkg": "eu.kanade.tachiyomi.extension.tr.moondaisyscans",
-    "apk": "tachiyomi-tr.moondaisyscans-v1.4.30.apk",
+    "apk": "tachiyomi-tr.moondaisyscans-v1.4.31.apk",
     "lang": "tr",
-    "code": 30,
-    "version": "1.4.30",
+    "code": 31,
+    "version": "1.4.31",
     "nsfw": 1,
     "sources": [
       {
         "name": "Moon Daisy Scans",
         "lang": "tr",
         "id": "2732049206654972364",
-        "baseUrl": "https://moondaisyscans.biz"
+        "baseUrl": "https://moondaisyscans.my"
       }
     ]
   },
@@ -26339,10 +26356,10 @@
   {
     "name": "Tachiyomi: Jinman Tiantang",
     "pkg": "eu.kanade.tachiyomi.extension.zh.jinmantiantang",
-    "apk": "tachiyomi-zh.jinmantiantang-v1.4.49.apk",
+    "apk": "tachiyomi-zh.jinmantiantang-v1.4.50.apk",
     "lang": "zh",
-    "code": 49,
-    "version": "1.4.49",
+    "code": 50,
+    "version": "1.4.50",
     "nsfw": 1,
     "sources": [
       {
