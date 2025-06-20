@@ -3609,10 +3609,10 @@
   {
     "name": "Tachiyomi: MangaDex",
     "pkg": "eu.kanade.tachiyomi.extension.all.mangadex",
-    "apk": "tachiyomi-all.mangadex-v1.4.202.apk",
+    "apk": "tachiyomi-all.mangadex-v1.4.203.apk",
     "lang": "all",
-    "code": 202,
-    "version": "1.4.202",
+    "code": 203,
+    "version": "1.4.203",
     "nsfw": 1,
     "sources": [
       {
@@ -6702,10 +6702,10 @@
   {
     "name": "Tachiyomi: Webtoons.com",
     "pkg": "eu.kanade.tachiyomi.extension.all.webtoons",
-    "apk": "tachiyomi-all.webtoons-v1.4.47.apk",
+    "apk": "tachiyomi-all.webtoons-v1.4.48.apk",
     "lang": "all",
-    "code": 47,
-    "version": "1.4.47",
+    "code": 48,
+    "version": "1.4.48",
     "nsfw": 0,
     "sources": [
       {
@@ -17463,17 +17463,17 @@
   {
     "name": "Tachiyomi: Perf Scan",
     "pkg": "eu.kanade.tachiyomi.extension.fr.perfscan",
-    "apk": "tachiyomi-fr.perfscan-v1.4.29.apk",
+    "apk": "tachiyomi-fr.perfscan-v1.4.30.apk",
     "lang": "fr",
-    "code": 29,
-    "version": "1.4.29",
+    "code": 30,
+    "version": "1.4.30",
     "nsfw": 1,
     "sources": [
       {
         "name": "Perf Scan",
         "lang": "fr",
-        "id": "3574296059549450587",
-        "baseUrl": "https://perf-scan.fr"
+        "id": "4533007917829146766",
+        "baseUrl": "https://perf-scan.net"
       }
     ]
   },
@@ -17786,17 +17786,17 @@
   {
     "name": "Tachiyomi: BacaKomik",
     "pkg": "eu.kanade.tachiyomi.extension.id.bacakomik",
-    "apk": "tachiyomi-id.bacakomik-v1.4.11.apk",
+    "apk": "tachiyomi-id.bacakomik-v1.4.12.apk",
     "lang": "id",
-    "code": 11,
-    "version": "1.4.11",
+    "code": 12,
+    "version": "1.4.12",
     "nsfw": 0,
     "sources": [
       {
         "name": "BacaKomik",
         "lang": "id",
         "id": "4383360263234319058",
-        "baseUrl": "https://bacakomik.one"
+        "baseUrl": "https://bacakomik.my"
       }
     ]
   },
@@ -26713,10 +26713,10 @@
   {
     "name": "Tachiyomi: YYmanhua",
     "pkg": "eu.kanade.tachiyomi.extension.zh.yymanhua",
-    "apk": "tachiyomi-zh.yymanhua-v1.4.1.apk",
+    "apk": "tachiyomi-zh.yymanhua-v1.4.2.apk",
     "lang": "zh",
-    "code": 1,
-    "version": "1.4.1",
+    "code": 2,
+    "version": "1.4.2",
     "nsfw": 0,
     "sources": [
       {
