@@ -4255,10 +4255,10 @@
   {
     "name": "Aniyomi: Hanime1",
     "pkg": "eu.kanade.tachiyomi.animeextension.zh.hanime1",
-    "apk": "aniyomi-zh.hanime1-v14.4.apk",
+    "apk": "aniyomi-zh.hanime1-v14.5.apk",
     "lang": "zh",
-    "code": 4,
-    "version": "14.4",
+    "code": 5,
+    "version": "14.5",
     "nsfw": 1,
     "sources": [
       {
@@ -4306,17 +4306,17 @@
   {
     "name": "Aniyomi: Xfani",
     "pkg": "eu.kanade.tachiyomi.animeextension.zh.xfani",
-    "apk": "aniyomi-zh.xfani-v14.5.apk",
+    "apk": "aniyomi-zh.xfani-v14.6.apk",
     "lang": "zh",
-    "code": 5,
-    "version": "14.5",
+    "code": 6,
+    "version": "14.6",
     "nsfw": 0,
     "sources": [
       {
         "name": "稀饭动漫",
         "lang": "zh",
         "id": "8868273686324481907",
-        "baseUrl": "https://dick.xfani.com"
+        "baseUrl": "https://dm.xifanacg.com"
       }
     ]
   },
