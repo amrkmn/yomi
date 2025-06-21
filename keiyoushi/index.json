@@ -3193,23 +3193,6 @@
     ]
   },
   {
-    "name": "Tachiyomi: KDT Scans",
-    "pkg": "eu.kanade.tachiyomi.extension.all.kdtscans",
-    "apk": "tachiyomi-all.kdtscans-v1.4.44.apk",
-    "lang": "all",
-    "code": 44,
-    "version": "1.4.44",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "KDT Scans",
-        "lang": "all",
-        "id": "5253252278559475443",
-        "baseUrl": "https://kdtscans.com"
-      }
-    ]
-  },
-  {
     "name": "Tachiyomi: Kemono",
     "pkg": "eu.kanade.tachiyomi.extension.all.kemono",
     "apk": "tachiyomi-all.kemono-v1.4.21.apk",
@@ -3310,10 +3293,10 @@
   {
     "name": "Tachiyomi: LANraragi",
     "pkg": "eu.kanade.tachiyomi.extension.all.lanraragi",
-    "apk": "tachiyomi-all.lanraragi-v1.4.19.apk",
+    "apk": "tachiyomi-all.lanraragi-v1.4.20.apk",
     "lang": "all",
-    "code": 19,
-    "version": "1.4.19",
+    "code": 20,
+    "version": "1.4.20",
     "nsfw": 0,
     "sources": [
       {
@@ -6702,10 +6685,10 @@
   {
     "name": "Tachiyomi: Webtoons.com",
     "pkg": "eu.kanade.tachiyomi.extension.all.webtoons",
-    "apk": "tachiyomi-all.webtoons-v1.4.48.apk",
+    "apk": "tachiyomi-all.webtoons-v1.4.49.apk",
     "lang": "all",
-    "code": 48,
-    "version": "1.4.48",
+    "code": 49,
+    "version": "1.4.49",
     "nsfw": 0,
     "sources": [
       {
@@ -8241,6 +8224,23 @@
         "lang": "en",
         "id": "6809555026902049727",
         "baseUrl": "https://arc-relight.com"
+      }
+    ]
+  },
+  {
+    "name": "Tachiyomi: Armageddon",
+    "pkg": "eu.kanade.tachiyomi.extension.en.armageddon",
+    "apk": "tachiyomi-en.armageddon-v1.4.30.apk",
+    "lang": "en",
+    "code": 30,
+    "version": "1.4.30",
+    "nsfw": 1,
+    "sources": [
+      {
+        "name": "Armageddon",
+        "lang": "en",
+        "id": "1281315089117038639",
+        "baseUrl": "https://www.silentquill.net"
       }
     ]
   },
@@ -19095,10 +19095,10 @@
   {
     "name": "Tachiyomi: West Manga",
     "pkg": "eu.kanade.tachiyomi.extension.id.westmanga",
-    "apk": "tachiyomi-id.westmanga-v1.4.35.apk",
+    "apk": "tachiyomi-id.westmanga-v1.4.36.apk",
     "lang": "id",
-    "code": 35,
-    "version": "1.4.35",
+    "code": 36,
+    "version": "1.4.36",
     "nsfw": 1,
     "sources": [
       {
@@ -20523,23 +20523,6 @@
     ]
   },
   {
-    "name": "Tachiyomi: Algodão Doce",
-    "pkg": "eu.kanade.tachiyomi.extension.pt.algodaodoce",
-    "apk": "tachiyomi-pt.algodaodoce-v1.4.44.apk",
-    "lang": "pt-BR",
-    "code": 44,
-    "version": "1.4.44",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Algodão Doce",
-        "lang": "pt-BR",
-        "id": "8976659270314261457",
-        "baseUrl": "https://xn--algododoce-j5a.com"
-      }
-    ]
-  },
-  {
     "name": "Tachiyomi: Alone Scanlator",
     "pkg": "eu.kanade.tachiyomi.extension.pt.alonescanlator",
     "apk": "tachiyomi-pt.alonescanlator-v1.4.42.apk",
@@ -20689,6 +20672,23 @@
         "lang": "pt-BR",
         "id": "1641160681602874924",
         "baseUrl": "https://arthurscan.xyz"
+      }
+    ]
+  },
+  {
+    "name": "Tachiyomi: Astratoons",
+    "pkg": "eu.kanade.tachiyomi.extension.pt.astratoons",
+    "apk": "tachiyomi-pt.astratoons-v1.4.1.apk",
+    "lang": "pt-BR",
+    "code": 1,
+    "version": "1.4.1",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "Astratoons",
+        "lang": "pt-BR",
+        "id": "568706475308881719",
+        "baseUrl": "https://astratoons.com"
       }
     ]
   },
@@ -20948,23 +20948,6 @@
     ]
   },
   {
-    "name": "Tachiyomi: Diskus Scan",
-    "pkg": "eu.kanade.tachiyomi.extension.pt.diskusscan",
-    "apk": "tachiyomi-pt.diskusscan-v1.4.44.apk",
-    "lang": "pt-BR",
-    "code": 44,
-    "version": "1.4.44",
-    "nsfw": 0,
-    "sources": [
-      {
-        "name": "Diskus Scan",
-        "lang": "pt-BR",
-        "id": "5356614925537900346",
-        "baseUrl": "https://diskusscan.online"
-      }
-    ]
-  },
-  {
     "name": "Tachiyomi: Dream Scan",
     "pkg": "eu.kanade.tachiyomi.extension.pt.dreamscan",
     "apk": "tachiyomi-pt.dreamscan-v1.4.44.apk",
@@ -21152,23 +21135,6 @@
     ]
   },
   {
-    "name": "Tachiyomi: Gekkou Scans",
-    "pkg": "eu.kanade.tachiyomi.extension.pt.gekkouscans",
-    "apk": "tachiyomi-pt.gekkouscans-v1.4.43.apk",
-    "lang": "pt-BR",
-    "code": 43,
-    "version": "1.4.43",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Gekkou Scans",
-        "lang": "pt-BR",
-        "id": "38569701795132984",
-        "baseUrl": "https://new.gekkou.space"
-      }
-    ]
-  },
-  {
     "name": "Tachiyomi: Ghost Scan",
     "pkg": "eu.kanade.tachiyomi.extension.pt.ghostscan",
     "apk": "tachiyomi-pt.ghostscan-v1.4.43.apk",
@@ -21335,23 +21301,6 @@
         "lang": "pt-BR",
         "id": "7310576253330700902",
         "baseUrl": "https://readhunters.xyz"
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: Illusion Scan",
-    "pkg": "eu.kanade.tachiyomi.extension.pt.illusionscan",
-    "apk": "tachiyomi-pt.illusionscan-v1.4.42.apk",
-    "lang": "pt-BR",
-    "code": 42,
-    "version": "1.4.42",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Illusion Scan",
-        "lang": "pt-BR",
-        "id": "9117275099167623609",
-        "baseUrl": "https://illusionscan.com"
       }
     ]
   },
@@ -22327,16 +22276,16 @@
   {
     "name": "Tachiyomi: Spectral Scan",
     "pkg": "eu.kanade.tachiyomi.extension.pt.spectralscan",
-    "apk": "tachiyomi-pt.spectralscan-v1.4.42.apk",
+    "apk": "tachiyomi-pt.spectralscan-v1.4.43.apk",
     "lang": "pt-BR",
-    "code": 42,
-    "version": "1.4.42",
+    "code": 43,
+    "version": "1.4.43",
     "nsfw": 0,
     "sources": [
       {
         "name": "Spectral Scan",
         "lang": "pt-BR",
-        "id": "3635528497630589819",
+        "id": "5304928452449566995",
         "baseUrl": "https://spectralscan.xyz"
       }
     ]
@@ -22803,17 +22752,17 @@
   {
     "name": "Tachiyomi: Com-X",
     "pkg": "eu.kanade.tachiyomi.extension.ru.comx",
-    "apk": "tachiyomi-ru.comx-v1.4.30.apk",
+    "apk": "tachiyomi-ru.comx-v1.4.31.apk",
     "lang": "ru",
-    "code": 30,
-    "version": "1.4.30",
+    "code": 31,
+    "version": "1.4.31",
     "nsfw": 0,
     "sources": [
       {
         "name": "Com-X",
         "lang": "ru",
         "id": "1114173092141608635",
-        "baseUrl": "https://com-x.life"
+        "baseUrl": "https://comxlife.com"
       }
     ]
   },
